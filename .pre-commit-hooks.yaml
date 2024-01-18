@@ -1,0 +1,5 @@
+- id: format-justfile
+  name: Format Justfiles
+  language: script
+  entry: pre-commit-just.sh
+  files: '\.?[jJ]ustfile'
