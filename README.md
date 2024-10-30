@@ -7,7 +7,7 @@ files.
 You must have `just` installed on your system for this hook to work.
 
 ```yaml
-- repo: https://github.com/instrument/pre-commit-justfile
+- repo: https://github.com/instrumentl/pre-commit-just.git
   rev: 'main'
   hooks:
     - id: format-justfile
