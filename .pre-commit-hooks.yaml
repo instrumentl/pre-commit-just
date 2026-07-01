@@ -3,3 +3,8 @@
   language: script
   entry: pre-commit-just.sh
   files: '\.?[jJ]ustfile'
+- id: check-justfile
+  name: Check Justfiles
+  language: script
+  entry: pre-commit-just.sh --check
+  files: '\.?[jJ]ustfile'
